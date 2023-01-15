@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" prefHeight="446.0" prefWidth="262.0" style="-fx-background-color: BLACK;" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="471.0" prefWidth="262.0">
+         <children>
+            <Button layoutX="75.0" layoutY="259.0" mnemonicParsing="false" onAction="#button5" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="5" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="134.0" layoutY="319.0" mnemonicParsing="false" onAction="#button3" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="3" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="75.0" layoutY="319.0" mnemonicParsing="false" onAction="#button2" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="2" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="134.0" layoutY="259.0" mnemonicParsing="false" onAction="#button6" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="6" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="319.0" mnemonicParsing="false" onAction="#button1" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="1" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="138.0" mnemonicParsing="false" onAction="#buttonD" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #FF9500;" text="÷" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="198.0" mnemonicParsing="false" onAction="#buttonM" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #FF9500;" text="✕" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="259.0" mnemonicParsing="false" onAction="#buttonS" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #FF9500;" text="−" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="319.0" mnemonicParsing="false" onAction="#buttonA" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #FF9500;" text="+" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="196.0" layoutY="379.0" mnemonicParsing="false" onAction="#equals" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #FF9500;" text="=" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Label fx:id="label1" alignment="BOTTOM_RIGHT" layoutX="-6.0" layoutY="42.0" prefHeight="96.0" prefWidth="262.0" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="MT Extra" size="40.0" />
+               </font></Label>
+            <Button layoutX="134.0" layoutY="379.0" mnemonicParsing="false" onAction="#dot" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="." textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font></Button>
+            <Button layoutX="75.0" layoutY="199.0" mnemonicParsing="false" onAction="#button8" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="8" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="259.0" mnemonicParsing="false" onAction="#button4" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="4" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="138.0" mnemonicParsing="false" onAction="#clear" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #D$D$D2;" text="AC">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="198.0" mnemonicParsing="false" onAction="#button7" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="7" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="134.0" layoutY="199.0" mnemonicParsing="false" onAction="#button9" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="9" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button layoutX="75.0" layoutY="138.0" mnemonicParsing="false" onAction="#negative" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #D$D$D2;" text="+/-">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="134.0" layoutY="138.0" mnemonicParsing="false" onAction="#percent" prefHeight="53.0" prefWidth="52.0" style="-fx-background-radius: 150; -fx-background-color: #D$D$D2;" text="\%">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <Button alignment="BASELINE_LEFT" layoutX="15.0" layoutY="379.0" mnemonicParsing="false" onAction="#button0" prefHeight="53.0" prefWidth="112.0" style="-fx-background-radius: 150; -fx-background-color: #505050;" text="0" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
